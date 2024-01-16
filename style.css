@@ -106,6 +106,7 @@ li a {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    padding-left: 10px;
 }
 
 .list-item {
@@ -697,8 +698,120 @@ li a {
     padding-left: 50px;
 }
 
+/* Sixth Section */
+.sixth-section{
+    display:flex;
+    gap: 14px;
+    margin-left: 160px;
+}
 
+.sixth-heading {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
 
+.sixth-description {
+    width: 350px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+
+}
+
+.sixth-section-input {
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.sixth-button {
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    background: rgba(19, 19, 24, 0.05);
+    border-radius: 8px;
+    background: #FF5400;
+    display: block;
+}
+
+.sixth-button-text {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.sixth-line {
+    width: 393px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    margin: 0;
+    margin-bottom: 24px;
+
+}
+
+.sixth-first {
+    width: 474px;
+    height: 422px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding-left: 40px;
+}
+
+.sixth-second-first {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sixth-second-second {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.sixth-second-img {
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FF5400;
+    position:absolute;
+}
+
+.sixth-first-img img {
+    width: 672px;
+    height: 422px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    position:relative;
+    
+}
 
 
 
@@ -964,24 +1077,26 @@ li a {
         /* 171.429% */
     }
 
-    .fifth-first-card, .fifth-second-card {
+    .fifth-first-card,
+    .fifth-second-card {
         width: 335px;
         height: 500px;
         flex-shrink: 0;
         background-position: 50% 50%;
         border-radius: 16px;
-        margin:0;
+        margin: 0;
     }
 
-    .first-card-design, .second-card-design{
+    .first-card-design,
+    .second-card-design {
         width: 303px;
         height: 297px;
         flex-shrink: 0;
         margin: 56px 0;
         margin-left: 5px;
-        padding:0;
+        padding: 0;
         padding-left: 10px;
-        margin-top:170px;
+        margin-top: 170px;
     }
 
     .inside-title {
@@ -995,15 +1110,58 @@ li a {
 
     .inside-description {
         width: 254px;
-        overflow:hidden;
+        overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;
         margin: 0;
     }
 
-    .fifth-cards{
-        margin-right:0;
+    .fifth-cards {
+        margin-right: 0;
     }
 
+    .sixth-first {
+        width: 335px;
+        height: 353px;
+        flex-shrink: 0;
+        margin-top: 24px;
+    }
+
+    .sixth-heading {
+        color: #131318;
+        font-family: Mulish;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .sixth-description {
+        width: 270px;
+        color: #5A5A5D;
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 171.429% */
+    }
+
+    .sixth-section-input {
+        width: 288px;
+        height: 52px;
+        flex-shrink: 0;
+    }
+
+    .sixth-button {
+        width: 288px;
+        height: 52px;
+        flex-shrink: 0;
+    }
+
+    .sixth-line {
+        width: 288px;
+        height: 1px;
+    }
 
 }
